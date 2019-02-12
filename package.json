@@ -1,0 +1,55 @@
+{
+  "name": "all-the-news-that-s-fit-to-scrape",
+  "version": "1.0.0",
+  "description": "Homework",
+  "main": "server.js",
+  "dependencies": {
+    "array-flatten": "^2.1.1",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "content-disposition": "^0.5.2",
+    "content-type": "^1.0.4",
+    "debug": "^4.0.1",
+    "destroy": "^1.0.4",
+    "ee-first": "^1.1.1",
+    "escape-html": "^1.0.3",
+    "etag": "^1.8.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "fresh": "^0.5.2",
+    "inherits": "^2.0.3",
+    "merge-descriptors": "^1.0.1",
+    "method-override": "^3.0.0",
+    "methods": "^1.1.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.2.16",
+    "mongoose-unique-validator": "^2.0.2",
+    "morgan": "^1.9.1",
+    "ms": "^2.1.1",
+    "on-finished": "^2.3.0",
+    "parseurl": "^1.3.2",
+    "path-to-regexp": "^2.4.0",
+    "qs": "^6.5.2",
+    "request": "^2.88.0",
+    "safe-buffer": "^5.1.2",
+    "setprototypeof": "^1.1.0",
+    "statuses": "^1.5.0",
+    "unpipe": "^1.0.0",
+    "utils-merge": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbsampson/All-the-News-That-s-Fit-to-Scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbsampson/All-the-News-That-s-Fit-to-Scrape/issues"
+  },
+  "homepage": "https://github.com/tbsampson/All-the-News-That-s-Fit-to-Scrape#readme"
+}
