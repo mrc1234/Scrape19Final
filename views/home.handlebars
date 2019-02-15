@@ -32,7 +32,7 @@
   </div>
   <div class="caption">
     <h1>News Super Scraper</h1>
-    <p>New York Times</p>
+    <p>Huffington Post</p>
   </div>
 </div>
 <div class="container-fluid article-container">
@@ -40,12 +40,12 @@
   <div data-_id="{{this._id}}" class="card">
     <div class="card-header">
       <h3>
-        <a class="article-link" target="_blank" rel="noopener noreferrer" href="{{this.url}}">{{this.headline}}</a>
+        <a class="article-link" target="_blank" rel="noopener noreferrer" href="{{this.link}}">{{this.title}}</a>
         <a class="btn btn-success save">Save the Article</a>
       </h3>
     </div>
-    <div class="card-body">{{this.summary}}</div>
-  </div>
+    <!--<div class="card-body">{{this.summary}}</div>
+  </div>-->
   {{/each}} {{#unless articles.length}}
   <div class='alert alert-warning text-center'>
     <h4>No new articles.</h4>
@@ -56,7 +56,7 @@
     </div>
     <div class="card-body text-center">
       <h4>
-        <a class="scrape-new">Scrape for New </a>
+        <a class="scrape-new">Scrape for New</a>
       </h4>
       <h4>
         <a href="/saved">Go to Saved</a>
@@ -68,7 +68,7 @@
 
 <footer class="footer">
   <div class="container">
-    <p>Scraper</p>
+    <p>Huffington Post Scraper</p>
   </div>
 </footer>
 
